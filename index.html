@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="./styles/variables-&-reset.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
 
     <link
       rel="stylesheet"
@@ -30,7 +31,7 @@
     <nav id="nav-menu" class="nav">
       <div>
         <div class="nav__inner-container">
-          <h3 class="nav__logo">&lt; Jayant Jagtap  &gt;</h3>
+          <h3 class="nav__logo">&lt; Jayant Jagtap &gt;</h3>
           <div class="nav__section-links">
             <p class="nav__reference-container">
               <a href="#home" class="nav__reference nav-link home">Home</a>
@@ -77,40 +78,76 @@
 
     <!-- Mobile Navbar -->
     <div class="mobile-nav">
-        <div class="mobile-nav__section-links">
-          <p class="nav__reference-container">
-            <a href="#home" class="mobile-nav__reference nav__reference"
-              ><span class="nav__span">Home</span></a
-            >
-          </p>
-          <p class="nav__reference-container">
-            <a href="#about" class="mobile-nav__reference nav__reference"
-              ><span class="nav__span">About</span></a
-            >
-          </p>
-          <p class="nav__reference-container">
-            <a href="#skills" class="mobile-nav__reference nav__reference"
-              ><span class="nav__span">Skills</span></a
-            >
-          </p>
-          <p class="nav__reference-container">
-            <a href="#projects" class="mobile-nav__reference nav__reference"
-              ><span class="nav__span">Projects</span></a
-            >
-          </p>
-          <p class="nav__reference-container">
-            <a href="#contact" class="mobile-nav__reference nav__reference"
-              ><span class="nav__span">Contact</span></a
-            >
-          </p>
-          <button class="button" onclick="resume()">
-            <a href="./Ajeet-Pawar-Resume.pdf" download="Ajeet-Pawar-Resume.pdf"
-              >Resume</a
-            >
-          </button>
+      <div class="mobile-nav__section-links">
+        <p class="nav__reference-container">
+          <a href="#home" class="mobile-nav__reference nav__reference"
+            ><span class="nav__span">Home</span></a
+          >
+        </p>
+        <p class="nav__reference-container">
+          <a href="#about" class="mobile-nav__reference nav__reference"
+            ><span class="nav__span">About</span></a
+          >
+        </p>
+        <p class="nav__reference-container">
+          <a href="#skills" class="mobile-nav__reference nav__reference"
+            ><span class="nav__span">Skills</span></a
+          >
+        </p>
+        <p class="nav__reference-container">
+          <a href="#projects" class="mobile-nav__reference nav__reference"
+            ><span class="nav__span">Projects</span></a
+          >
+        </p>
+        <p class="nav__reference-container">
+          <a href="#contact" class="mobile-nav__reference nav__reference"
+            ><span class="nav__span">Contact</span></a
+          >
+        </p>
+        <button class="button" onclick="resume()">
+          <a
+            href="./jayant-jagtap-Resume.pdf"
+            download="jayant-jagtap-Resume.pdf"
+            >Resume</a
+          >
+        </button>
+      </div>
+    </div>
+    <!-- end of Mobile Navbar -->
+    <!-- end of Navbar -->
+
+    <!-- Home Section -->
+    <div class="home" id="home">
+      <div id="home" class="hero-section">
+        <div class="home__inner-container">
+          <div class="home__left-container">
+            <div class="home__intro">
+              <div>
+                <h1>Hi, my name is</h1>
+              </div>
+              <h2 style="font-family: 'Times New Roman', Times, serif">
+                Jayant Jagtap
+              </h2>
+              <h3>An I'm Full Stack Web Developer.</h3>
+              <p>
+                I graduated from DY Patil College of Engineering, Kolhapur, with
+                a strong passion for computer science. I specialize in front-end
+                development, focusing on creating dynamic and engaging user
+                interfaces.
+              </p>
+            </div>
+            <button class="button" id="resume-button-2" onclick="resume()">
+              <a
+                href="./jayant-jagtap-Resume.pdf"
+                id="resume-link-2"
+                download="jayant-jagtap-Resume.pdf"
+                >Resume</a
+              >
+            </button>
+          </div>
         </div>
       </div>
-      <!-- end of Mobile Navbar -->
-      <!-- end of Navbar -->
+    </div>
+    <!-- end of Home Section -->
   </body>
 </html>
