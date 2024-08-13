@@ -19,7 +19,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
   
   function resume() {
-    window.open("./Ajeet-Pawar-Resume.pdf", "_blank");
+    window.open("./jayant-jagtap-Resume.pdf", "_blank");
   }
   
   // GitHubCalendar(".calendar", "audacity07", {
