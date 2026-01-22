@@ -1,0 +1,116 @@
+/* || EXPERIENCE SECTION */
+.experience__inner-container {
+  max-width: min(82%, var(--width-lg));
+  margin: auto;
+  padding: var(--padding-lg) 0;
+  margin-bottom: 2rem;
+}
+
+.experience__card {
+  background-color: var(--black-shade2);
+  border-radius: 2rem;
+  padding: var(--padding);
+  margin-top: 5rem;
+}
+
+.experience__header {
+  margin-bottom: 2rem;
+}
+
+.experience__role {
+  font-size: 2.8rem;
+  color: var(--white-shade2);
+  margin-bottom: 0.5rem;
+}
+
+.experience__company {
+  font-size: 2rem;
+  color: var(--fc-blue-shade1);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.experience__company-description {
+  font-size: 1.6rem;
+  color: var(--gray-shade1);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.experience__responsibilities {
+  margin-top: 2rem;
+}
+
+.experience__responsibilities h4 {
+  font-size: 2rem;
+  color: var(--white-shade2);
+  margin-bottom: 1.5rem;
+}
+
+.experience__responsibilities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experience__responsibilities li {
+  font-size: 1.6rem;
+  color: var(--gray-shade1);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.experience__responsibilities li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--fc-blue-shade1);
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  .experience__role {
+    font-size: 2.4rem;
+  }
+
+  .experience__company {
+    font-size: 1.8rem;
+  }
+
+  .experience__company-description,
+  .experience__responsibilities li {
+    font-size: 1.5rem;
+  }
+
+  .experience__responsibilities h4 {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .experience__role {
+    font-size: 2rem;
+  }
+
+  .experience__company {
+    font-size: 1.6rem;
+  }
+
+  .experience__company-description,
+  .experience__responsibilities li {
+    font-size: 1.4rem;
+  }
+
+  .experience__responsibilities h4 {
+    font-size: 1.6rem;
+  }
+
+  .experience__responsibilities li {
+    padding-left: 1.5rem;
+  }
+}
+
